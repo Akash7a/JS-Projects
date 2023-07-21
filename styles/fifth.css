@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(50deg, red, blue);
+}
+.container {
+  min-height: 100vh;
+}
+form {
+  width: 500px;
+  box-shadow: 20px 20px 50px rgba(52, 52, 52, 0.5);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-top: 0.1px solid rgba(255, 255, 255, 0.5);
+  border-left: 0.1px solid rgba(255, 255, 255, 0.5);
+}
+form h1 {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+}
+input,
+textarea,
+button {
+  padding: 10px;
+  font-size: 20px;
+  resize: none;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid gray;
+  font-family: sans-serif;
+}
+button[type="submit"] {
+  background-color: aquamarine;
+  border-radius: 50px;
+}
+button[type="submit"]:hover {
+  transition: all 0.1s ease;
+  cursor: pointer;
+  background-color: lime;
+}
+.task {
+  width: 500px;
+  margin: 10px auto;
+  padding: 10px 0;
+  box-shadow: 0 0 20px black;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.title {
+  padding: 10px 5px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+.description {
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.deleteBtn {
+  background-color: crimson;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deleteBtn:hover {
+  background-color: darkred;
+  color: white;
+  transition: all 0.1s ease;
+  cursor: pointer;
+  scale: 1.1;
+  transform: translateY(-5px);
+}

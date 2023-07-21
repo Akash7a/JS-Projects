@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="./styles/fourth.css">
+
+</head>
+
+<body>
+
+    <form>
+        <p>Try to geuss the Number between 1 to 100</p>
+        <p>You have 10 attemps in one time</p>
+        <input type="number" id="user-input" placeholder="Guess Number?" min="0" max="100">
+        <input type="submit" value="Guess Number" id="subt">
+        <div class="result-paras">
+            <p>Previous Guessing:<span id="guesses"></span></p>
+            <p>Remaining attemps:<span id="lastResult"></span></p>
+            <p class="lowOrHigh"></p>
+        </div>
+    </form>
+    <!-- js -->
+    <script src="./js/fourth.js"></script>
+</body>
+
+</html>

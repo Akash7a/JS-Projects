@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(50deg,red,blue);
+    padding: 5% 0;
+}
+form{
+    background-color: rgba(0 ,0,0,0.1);
+    box-shadow: 10px 10px 50px rgb(6, 6, 6),inset -5px -5px 10px rgb(18, 18, 18);
+    width: 410px;
+    min-height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: white;
+}
+label{
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 10px;
+}
+form button{
+    padding: 10px;
+    width: 77%;
+    background-color: lime;
+    box-shadow: 0 0 5px black;
+    border: 0;
+    font-size: 18px;
+    outline: none;
+    border: 10px;
+}
+form button:hover{
+    transition: all 0.2s linear;
+    background-color: green;
+    color: white;
+}
+/* weight-guide */
+#result{
+    background-color: white;
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 30px;
+}
+#weight-guide{
+    width: 100%;
+    padding:20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+#weight-guide h3{
+    border-bottom: 1px solid white;
+    padding:5px 0;
+}
+.indicate{
+    background-color: rgb(48, 166, 81);
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background: linear-gradient(50deg, blue, red, goldenrod);
+}
+form {
+  width: 500px;
+  height: 400px;
+  margin: 10px auto;
+  box-shadow: 0 0 5px black;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+}
+form input[type="submit"] {
+  background-color: lime;
+  font-size: 20px;
+}
+form input[type="submit"]:hover {
+  background-color: green;
+  color: white;
+  transition: all 0.2s linear;
+}
+.button {
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+  background: aquamarine;
+  color: black;
+  border-radius: 5px;
+}
